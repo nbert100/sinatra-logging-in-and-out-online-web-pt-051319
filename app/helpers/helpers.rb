@@ -1,7 +1,7 @@
 class Helpers
   
   def self.current_user(hash)
-    @user = User.
+    @user = User.find(hash[:user_id])
     
   end
   
